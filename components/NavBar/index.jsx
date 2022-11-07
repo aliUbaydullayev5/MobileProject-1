@@ -1,5 +1,5 @@
 import Container, {Logo, RightBlock} from './style'
-// import PersonIcon from '../../assets/svg/icon-person.svg'
+import PersonIcon from '../../assets/svg/icon-person.svg'
 // import Image from "next/image";
 // import NotificationIcon from '../../assets/svg/notification.svg'
 import {useRouter} from "next/router";
@@ -32,7 +32,7 @@ const NavBar = () => {
                         <div>Личный кабинет</div>
                         {/*{adminType.user}*/}
                     </RightBlock.RightTop>
-                    {/*<PersonIcon alt={'person-icon'} />*/}
+                    <PersonIcon alt={'person-icon'} />
                 </RightBlock.Profile>
             </RightBlock>
         </Container>
