@@ -1,4 +1,4 @@
-import {Container} from "./style.js";
+import Container from "./style.js";
 
 const Main = () => {
     return(
