@@ -43,10 +43,10 @@ const UniqComponent = () => {
                         <Container.MainComponent>
                             <div className={'left'}>
                                 <div>
-                                    {/*{img === 1 && <Image src={data?.img1} alt={''} width={400} height={400} />}*/}
-                                    {/*{img === 2 && <Image src={data?.img2} alt={''} width={400} height={400} />}*/}
-                                    {/*{img === 3 && <Image src={data?.img3} alt={''} width={400} height={400} />}*/}
-                                    {/*{img === 4 && <Image src={data?.img4} alt={''} width={400} height={400} />}*/}
+                                    {img === 1 && <img src={data?.img1} />}
+                                    {img === 2 && <img src={data?.img2} />}
+                                    {img === 3 && <img src={data?.img3} />}
+                                    {img === 4 && <img src={data?.img4} />}
                                 </div>
                                 <Container.LeftBottom>
                                     {data?.img1?.length > 5 && <Container.LeftRound onClick={()=> setImg(1)}><div style={img===1?{background:'#3D639D'}:{}}></div></Container.LeftRound>}
