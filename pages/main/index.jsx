@@ -5,7 +5,7 @@ const Main = () => {
     return(
         <Container>
             Main
-        </Block>
+        </Container>
     )
 }
 
