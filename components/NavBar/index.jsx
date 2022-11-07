@@ -4,16 +4,16 @@ import NotificationIcon from '../../assets/svg/notification.svg'
 import {useRouter} from "next/router";
 import {useSelector, useDispatch} from "react-redux";
 import {useEffect} from "react";
-// import {changeAdmin} from "../../redux/adminClear";
+import {changeAdmin} from "../../redux/adminClear";
 
 const NavBar = () => {
 
     const router = useRouter()
-    // const adminType = useSelector((store)=> store.admin)
-    // const dispatch = useDispatch()
+    const adminType = useSelector((store)=> store.admin)
+    const dispatch = useDispatch()
 
     useEffect(()=> {
-        // dispatch(changeAdmin())
+        dispatch(changeAdmin())
         // eslint-disable-next-line
     },[])
 
@@ -25,7 +25,7 @@ const NavBar = () => {
                 <RightBlock.Profile>
                     <RightBlock.RightTop>
                         <div>Личный кабинет</div>
-                        {/*{adminType.user}*/}
+                        {adminType.user}
                     </RightBlock.RightTop>
                     <PersonIcon alt={'person-icon'} />
                 </RightBlock.Profile>
