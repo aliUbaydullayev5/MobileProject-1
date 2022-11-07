@@ -1,6 +1,6 @@
 import Container, {Logo, RightBlock} from './style'
 import PersonIcon from '../../assets/svg/icon-person.svg'
-// import NotificationIcon from '../../assets/svg/notification.svg'
+import NotificationIcon from '../../assets/svg/notification.svg'
 import {useRouter} from "next/router";
 import {useSelector, useDispatch} from "react-redux";
 import {useEffect} from "react";
@@ -21,11 +21,7 @@ const NavBar = () => {
         <Container className={'container'}>
             <Logo className={'nocopy'}><a href={'/main'}>Logo</a></Logo>
             <RightBlock onClick={()=> router.push('/login')}>
-
-
-                {/*<NotificationIcon alt={'notification icon'} className={'pointer'} />*/}
-
-
+                <NotificationIcon alt={'notification icon'} className={'pointer'} />
                 <RightBlock.Profile>
                     <RightBlock.RightTop>
                         <div>Личный кабинет</div>

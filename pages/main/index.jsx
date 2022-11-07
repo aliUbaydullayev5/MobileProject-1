@@ -1,12 +1,12 @@
 import Root from "../../root";
 import Container from "./style";
-// import MapProducts from "../../components/MainComponents/MapProducts";
+import MapProducts from "../../components/MainComponents/MapProducts";
 
 const Main = () => {
     return(
         <Root>
             <Container>
-                {/*<MapProducts />*/}
+                <MapProducts />
             </Container>
         </Root>
     )
