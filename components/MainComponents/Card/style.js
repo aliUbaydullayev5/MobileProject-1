@@ -24,6 +24,7 @@ const CardBlock = styled.div`
     justify-content: center;
     >img{
       height: 100% !important;
+      max-width: 100%;
     }
   }
   .second{
