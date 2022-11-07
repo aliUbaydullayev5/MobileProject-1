@@ -1,6 +1,5 @@
 import Container, {Logo, RightBlock} from './style'
 import PersonIcon from '../../assets/svg/icon-person.svg'
-// import Image from "next/image";
 // import NotificationIcon from '../../assets/svg/notification.svg'
 import {useRouter} from "next/router";
 import {useSelector, useDispatch} from "react-redux";
