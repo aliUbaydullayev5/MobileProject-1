@@ -1,5 +1,5 @@
 import Container from "./style";
-// import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar";
 // import Navigation from "../components/Navigation";
 import navigationData from "../utils/navigationData";
 import {useRouter} from "next/router";
@@ -10,7 +10,7 @@ const Root = ({children}) => {
 
     return(
         <Container>
-            {/*<NavBar />*/}
+            <NavBar />
             <Container.Main>
                 <Container.Navigation>
                     {/*<Navigation />*/}
