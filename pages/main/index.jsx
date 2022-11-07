@@ -1,10 +1,14 @@
-import Container from "./style.js";
+import Root from "../../root";
+import Container from "./style";
+// import MapProducts from "../../components/MainComponents/MapProducts";
 
 const Main = () => {
     return(
-        <Container>
-            Main
-        </Container>
+        <Root>
+            <Container>
+                {/*<MapProducts />*/}
+            </Container>
+        </Root>
     )
 }
 
