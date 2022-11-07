@@ -1,12 +1,9 @@
-import styled from 'styled-components'
+import {Container} from "./style";
 
-const Block = styled.div`
-  border: 1px solid red;
-`
 
 const Main = () => {
     return(
-        <Block>
+        <Container>
             Main
         </Block>
     )
