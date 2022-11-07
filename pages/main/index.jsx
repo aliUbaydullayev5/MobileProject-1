@@ -1,8 +1,9 @@
+import {Container} from "./style";
+
 const Main = () => {
     return(
-        <div>
-            Main
-        </div>
+        <Container>
+        </Container>
     )
 }
 
