@@ -1,6 +1,6 @@
 import Container from "./style";
 import NavBar from "../components/NavBar";
-// import Navigation from "../components/Navigation";
+import Navigation from "../components/Navigation";
 import navigationData from "../utils/navigationData";
 import {useRouter} from "next/router";
 
@@ -13,7 +13,7 @@ const Root = ({children}) => {
             <NavBar />
             <Container.Main>
                 <Container.Navigation>
-                    {/*<Navigation />*/}
+                    <Navigation />
                 </Container.Navigation>
                 <Container.Products>
                     <Container.Mini>

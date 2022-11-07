@@ -1,6 +1,4 @@
 import CardBlock from './style'
-import him from '../../../assets/svg/buy.svg'
-import Image from "next/image";
 
 const Card = ({_id, img1, title, price, click}) => {
 
