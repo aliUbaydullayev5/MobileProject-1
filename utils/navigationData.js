@@ -1,4 +1,4 @@
-import mainIcon from '../assets/svg/icon-main.svg'
+import MainIcon from '../assets/svg/icon-main.svg'
 import ListIcon from '../assets/svg/icon-list.svg'
 import ProductIcon from '../assets/svg/icon-product.svg'
 import StarIcon from '../assets/svg/icon-star.svg'
@@ -8,8 +8,7 @@ import Image from "next/image";
 const navigationData = [
     {
         id: 1,
-        // icon: <Image src={mainIcon} className={'img'} />,
-        // icon: <MainIcon className={'img'} />,
+        icon: <MainIcon className={'img'} />,
         title: 'Главная',
         path: '/main',
         profile: false,
@@ -17,7 +16,7 @@ const navigationData = [
     },
     {
         id: 2,
-        // icon: <ListIcon className={'img'} />,
+        icon: <ListIcon className={'img'} />,
         title: 'Заказы',
         path: '/order',
         profile: true,
@@ -25,7 +24,7 @@ const navigationData = [
     },
     {
         id: 3,
-        // icon: <ProductIcon className={'img'} />,
+        icon: <ProductIcon className={'img'} />,
         title: 'Товары',
         path: '/product',
         profile: false,
@@ -33,7 +32,7 @@ const navigationData = [
     },
     {
         id: 4,
-        // icon: <StarIcon className={'img'} />,
+        icon: <StarIcon className={'img'} />,
         title: 'Отзывы',
         path: '/review',
         profile: false,
@@ -41,7 +40,7 @@ const navigationData = [
     },
     {
         id: 5,
-        // icon: <BasketIcon className={'img'} />,
+        icon: <BasketIcon className={'img'} />,
         title: 'Оформить заказ',
         path: '/placeorder',
         profile: true,

@@ -15,14 +15,14 @@ const Navigation = () => {
             {adminType ?
                 navigationData.map(({id, icon, title, path, profile, hidden})=> !hidden && (
                     <Column.Row key={id} href={path} className={query.pathname === path && 'active'}>
-                        {/*{icon}*/}
+                        {icon}
                         <p>{title}</p>
                     </Column.Row>
                 ))
                 :
                 navigationData.map(({id, icon, title, path, profile, hidden})=> !hidden && !profile && (
                     <Column.Row key={id} href={path} className={query.pathname === path && 'active'}>
-                        {/*{icon}*/}
+                        {icon}
                         <p>{title}</p>
                     </Column.Row>
                 ))
